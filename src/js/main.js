@@ -1,6 +1,7 @@
 //
 //Evento cambia de imagen y el texto al seleccionar otro modelo de carro
 //
+
 const eleccion = document.getElementById("select-modelo");
 const auto = document.getElementById("automovil");
 const caracteristicas = document.querySelector(".features-container");

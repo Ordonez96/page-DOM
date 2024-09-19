@@ -1,3 +1,5 @@
+
+
 //JS De registro 
 function redirigir(){
     let nombre = document.getElementById('id_nombre').value;
@@ -38,3 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
         info_label.innerHTML = infoTexto;
     }
 });
+
+function redirigirRegistro(){
+    window.location.href = './src/views/registrarse.html';
+
+}
