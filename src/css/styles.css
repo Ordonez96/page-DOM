@@ -40,9 +40,10 @@ body{
     border-radius: 20px;
     height: 2em;
     width: 10vw;
-    background-color: transparent;
-    border-color: #D71921;
-    color: #D71921;
+    background-color:transparent;
+    border-color: #b9b9b9;
+    color: #ffffff;
+    font-weight: bold;
     font-size: 2vh;
     overflow-x: hidden;
     font-family: "Noto Sans Warang Citi", sans-serif;
@@ -53,8 +54,9 @@ body{
     border-radius: 20px;
     height: 2em;
     background-color: transparent;
-    border-color: #D71921;
-    color: #D71921;
+    border-color: #b9b9b9;
+    color: #ffffff;
+    font-weight: bold;
     font-size: 2vh;
     width: 10vw;
     font-family: "Noto Sans Warang Citi", sans-serif;
@@ -63,7 +65,7 @@ body{
 }
 .container .header-container .nav-container div select option{
     background-color:#D71921;
-    color:black;
+    color:rgb(255, 255, 255);
     
 }
 /*MAIN*/
