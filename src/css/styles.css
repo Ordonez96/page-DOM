@@ -44,7 +44,7 @@ html {
     gap: 1em;
 }
 
-input, select {
+.input, .select {
     padding: 9px 3px;
     font-size: 16px;
     width: 100%;
@@ -58,7 +58,7 @@ input, select {
     
 }
 
-button {
+.button {
     padding: 12px 20px;
     margin: 0;
     font-size: 16px;
@@ -71,7 +71,7 @@ button {
     transition: background-color 0.3s ease;
 }
   
-  button:hover {
+  .button:hover {
     background-color: #ff3a4c;
 }
 
