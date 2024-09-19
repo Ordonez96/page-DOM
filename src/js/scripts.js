@@ -65,7 +65,9 @@ function redirigirRegistro(){
     window.location.href = './src/views/registrarse.html';
 
 }
-
+ function redireccionarInicio(){
+    window.location.href = '../../index.html';
+ }
 /////////////////////////////////////////////////////////////////////////
 
 document.getElementById('select-modelo').addEventListener('change', cambiarAuto);

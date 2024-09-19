@@ -147,6 +147,26 @@ html {
     box-sizing: inherit;
 }
 
+
+.button_nav {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: #b9b9b9;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2vh;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    transition: background-color 0.3s ease;
+}
+.button_nav:hover {
+    background-color: #ff3a4c;
+}
+
 .contenido{
     padding: 20px;
     border-radius: 20px;
@@ -163,6 +183,7 @@ html {
     display: flex;
     flex-direction:column;
     gap: 15px;
+    align-items: center;
 }
 
 .datos{
