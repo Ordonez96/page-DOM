@@ -45,6 +45,9 @@ body{
     color: #D71921;
     font-size: 2vh;
     overflow-x: hidden;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .container .header-container .nav-container div select{
     border-radius: 20px;
@@ -54,6 +57,9 @@ body{
     color: #D71921;
     font-size: 2vh;
     width: 10vw;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .container .header-container .nav-container div select option{
     background-color:#D71921;
@@ -71,7 +77,7 @@ body{
     margin-top: auto;
 }
 .container .main-container .auto-container img{
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 .container .main-container .features-container{
