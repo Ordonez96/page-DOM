@@ -8,6 +8,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: black !important;
+    background-image: url("../img/BZ_5120_2489_v2_desktop_XL_9LvfBzqWlP0NuwCgpAdyCzpe.avif")!important;
+    background-size: cover!important;
 }
 /*Estilos de los campos especificos */
 
@@ -22,8 +25,8 @@ textarea {
 /* Estilos del header */
 
 header {
-    background-color: #dededf;
-    color: black;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
     padding: 1rem 0;
@@ -125,13 +128,19 @@ button:hover {
 /* Estilos del footer */
 footer {
     background-color: #333;
-    color: white;
-    padding: 1rem 0;
-    width: 100%;
+    padding: 0;
     text-align: center;
-    margin-top: auto; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1em;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;  
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
 }
 
-footer p {
-    font-size: 1rem; 
-}
