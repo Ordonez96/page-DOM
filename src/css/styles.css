@@ -117,6 +117,7 @@ body {
     font-style: italic;
     font-size: 1em;
     height: 100vh;
+    font-weight: bold;
     background-color: black !important;
     background-image: url("../img/BZ_5120_2489_v2_desktop_XL_9LvfBzqWlP0NuwCgpAdyCzpe.avif")!important;
     background-size: cover!important;
@@ -182,10 +183,7 @@ html {
 p{
     color: rgb(0, 0, 0);
 }
-label{
-    color: rgb(0, 0, 0);
 
-}
 .button {
     padding: 12px 20px;
     margin: 0;

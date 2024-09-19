@@ -24,14 +24,17 @@ document.addEventListener('DOMContentLoaded', function() {
         let infoTexto = '';
         //Logica label
         switch(categoría_label) {
-            case 'TOYOTA COROLLA 2022':
-                infoTexto = 'Motor 2.0<br>4 puertas<br>Transmisión Estandar<br>Precio $22,000';
+            case 'Corolla 2025':
+                infoTexto = 'Motor 2.0<br>4 puertas<br>Transmisión Estandar<br>Precio $28,000';
                 break;
-            case 'NISSAN NP300 2024':
-                infoTexto = 'Motor turbo 2.4<br>4 puertas<br>Transmisión Estandar<br>4x4<br>Full Extras<br>Precio $48,000';
+            case 'Hylux 2025':
+                infoTexto = 'Motor turbo 2.4<br>4 puertas<br>Transmisión Estandar<br>4x4<br>Full Extras<br>Precio $60,000';
                 break;
-            case 'TOYOTA HYLUX 2024':
-                infoTexto = 'Motor turbo 3.0<br>4 puertas<br>Transmisión Estandar<br>4x4<br>Full Extras<br>Precio $52,000';
+            case '4Runner 2025':
+                infoTexto = 'Motor turbo 3.0<br>4 puertas<br>Transmisión Estandar<br>4x4<br>Full Extras<br>Precio $62,000';
+                break;
+            case 'Land Cruiser 2025':
+                infoTexto = 'Motor 4.0 V6<br>4 puertas<br>Transmisión Automática<br>4x4<br>Bildaje nivel 4<br>Full Extras<br>Precio $95,000';
                 break;
             default:
                 infoTexto = 'Selecciona una categoría para ver el descuento';
