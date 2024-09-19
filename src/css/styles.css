@@ -175,6 +175,17 @@ html {
     
 }
 
+.input::placeholder{
+    color: rgb(0, 0, 0);
+} 
+
+p{
+    color: rgb(0, 0, 0);
+}
+label{
+    color: rgb(0, 0, 0);
+
+}
 .button {
     padding: 12px 20px;
     margin: 0;
