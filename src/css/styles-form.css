@@ -19,8 +19,6 @@ textarea {
 }
 
 
-
-
 /* Estilos del header */
 
 header {
@@ -31,8 +29,11 @@ header {
     padding: 1rem 0;
     margin-bottom: 10px;
 }
-
+ 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 70vh;
 }
 
@@ -43,10 +44,10 @@ img {
 }
 
 .card {
-    margin-top: 0; 
-    width: 100%; 
+    margin: 0 auto;
+    width: 100%;
     max-width: 500px;
-} 
+}  
 
 .card-body {
     padding: 1rem; 
@@ -108,5 +109,16 @@ button:hover {
 
     input, textarea {
         flex: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-group {
+        flex-direction: column; 
+    }
+
+    button {
+        width: 100%; 
+        margin-bottom: 10px; 
     }
 }
