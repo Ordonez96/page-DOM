@@ -19,6 +19,8 @@ textarea {
 }
 
 
+
+
 /* Estilos del header */
 
 header {
@@ -30,9 +32,21 @@ header {
     margin-bottom: 10px;
 }
 
+main {
+    height: 70vh;
+}
+
+img {
+    width: 25vh; 
+    height: auto;
+    display: block;
+}
+
 .card {
     margin-top: 0; 
-}
+    width: 100%; 
+    max-width: 500px;
+} 
 
 .card-body {
     padding: 1rem; 

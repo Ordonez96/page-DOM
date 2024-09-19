@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./src/css/styles-form.css">
+    <link rel="stylesheet" href="styles-form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
@@ -14,8 +14,11 @@
     <header>
         <h1 class="libre-baskerville-bold">Contacta con nosotros</h1>
     </header>
-    <main class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <article class="card" style="width: 100%; max-width: 500px;">
+    
+    <img src="./src/logo_de_toyota-removebg-preview.png" alt="Dos vehiculos" class="img-fluid">
+
+    <main class="d-flex justify-content-center align-items-center">
+        <article class="card">
             <div class="card-body">
                 <form id="contactForm">
                     <section class="form-group">
@@ -42,14 +45,16 @@
                         <label for="mensaje">Mensaje</label>
                         <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí..." required></textarea>
                     </section>
-                    <section class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    <section class="form-group d-flex justify-content-between">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                        <button type="button" class="btn btn-dark">Regresar</button>
                     </section>
+                    
                 </form>
             </div>
         </article>
     </main>
 
-    <script src="./src/js/form.js"></script>
+    <script src="form.js"></script>
 </body>
 </html>
