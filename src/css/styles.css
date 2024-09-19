@@ -208,16 +208,16 @@ p{
 }
 
 footer{
-    background: #9486d4;
-    padding: 0;
+    background-color: #333;
+    padding: 1rem;
     text-align: center;
     position: fixed;
+    width: 100%;
     bottom: 0;
     left: 0;
     right: 0;
     font-size: 1em;
-    color: #000000;
-
+    color: #ffffff;
     justify-content: center;
-    align-items: center;        
+    align-items: center;  
 }
