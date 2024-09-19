@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/styles-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <header>
+        <h1 class="libre-baskerville-bold">Contacta con nosotros</h1>
+    </header>
+    
+    <img src="./src/logo_de_toyota-removebg-preview.png" alt="Dos vehiculos" class="img-fluid">
+
+    <main class="d-flex justify-content-center align-items-center">
+        <article class="card">
+            <div class="card-body">
+                <form id="contactForm">
+                    <section class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </section>
+                    <section class="form-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido" required>
+                    </section>
+                    <section class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                    </section>
+                    <section class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" required>
+                    </section>
+                    <section class="form-group">
+                        <label for="telefono">Número de Teléfono (Opcional)</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="+503 7654 1232">
+                    </section>
+                    <section class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escriba su mensaje aquí..." required></textarea>
+                    </section>
+                    <section class="form-group d-flex justify-content-between">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                        <button type="button" class="btn btn-dark">Regresar</button>
+                    </section>
+                    
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer class="text-center" style="background-color: #333; color: white; padding: 1rem 0; position: relative; bottom: 0; width: 100%;">
+    <p> G18 -- Todos los derechos reservados 2024</p>
+    </footer>
+
+    <script src="./src/js/form.js"></script>
+</body>
+</html>
