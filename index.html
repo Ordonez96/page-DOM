@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/mainStyles.css">
 </head>
-<script src="./src/js/scripts.js"></script>
+
 <body>
-    
+    <div class="container">
+        <!--HEADER-->
+        <header class="header-container">
+            <section class="logo-container">
+                <a href="#">
+                    <img src="./src/img/pngwing.com.png" alt="toyota-logo">
+                </a>
+            </section>
+            <section class="nav-container">
+                <div>
+                    <button>Registrate</button>
+                </div>
+                <div>
+                    <select name="selec-modelo" id="select-modelo" >
+                            <option value="0">Corolla 2025</option>
+                            <option value="1">Hylux 2025</option>
+                            <option value="2">4Runner 2025</option>
+                            <option value="3">Land Cruiser 2025</option>
+                    </select>
+                </div>
+                <div>
+                    <button>Contactos</button>
+                </div>
+                    
+            </section>
+
+        </header>
+
+        <!--MAIN-->
+        <main class="main-container">
+            <section class="auto-container">
+                <img id="automovil" src="./src/img/pngwing.com (0).png" alt="hylux-png">
+            </section>
+            <section class="features-container">
+                <h2>Corolla 2025</h2>
+                <p>El Toyota Corolla 2025 destaca por su diseño moderno, opciones híbridas,
+                 eficiencia de combustible y avanzadas tecnologías de seguridad e 
+                 infoentretenimiento, manteniendo su confiabilidad característica.</p>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="./src/js/main.js"></script>
 </body>
-<footer>
-    <p>G18 -- Todos los derechos reservados. 2024</p>
-</footer>
+
 </html>
