@@ -61,6 +61,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+function mensaje(){
+    let categoria = document.getElementById('id_categoria').value;
+    if ( categoria.trim() === ''){
+        alert('Debes seleccionar un Vehículo');
+        return false;
+    }
+    alert('Gracias por contactarnos!\nHemos enviado la cotizacion a su correo electronico');
+}
+
 function redirigirRegistro(){
     window.location.href = './src/views/registrarse.html';
 
